@@ -8,6 +8,8 @@ router.use( require( './candidateRoutes' ) );
 router.use( require( './partyRoutes' ) );
 // handle routes for voters
 router.use( require( './voterRoutes' ) );
+// handle routes for votes
+router.use( require( './voteRoutes' ) );
 
 // modularize router
 module.exports = router;
